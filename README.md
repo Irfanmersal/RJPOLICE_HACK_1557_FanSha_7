@@ -17,3 +17,54 @@
 **Step 09. Conclusions:** This is a conclusion stage which the generation capacity model is tested using unseen data. In addition, some business questions are answered to show the applicability of the model in the business context.
 
 **Step 10. Model Deploy:** This is the final step of the data science project. So, in this step the flask api is created and the model and the functions are saved to be implemented in the api.
+
+
+
+
+
+
+ 5.0 Machine Learning Applied
+
+Here's all cross validation results of the machine learning models with their default parameters. The cross validation method is important to show the capacity of the model to learn.
+
+#### Dummy Model
+
+| Balanced Accuracy |  Precision  |    Recall   |      F1     |      Kappa     |
+|:-----------------:|:-----------:|:-----------:|:-----------:|:--------------:|
+|   0.499 +/- 0.0   | 0.0 +/- 0.0 | 0.0 +/- 0.0 | 0.0 +/- 0.0 | -0.001 +/- 0.0 |
+
+#### Logistic Regression
+
+| Balanced Accuracy |  Precision  |      Recall     |        F1       |      Kappa      |
+|:-----------------:|:-----------:|:---------------:|:---------------:|:---------------:|
+|  0.565 +/- 0.009  | 1.0 +/- 0.0 | 0.129 +/- 0.017 | 0.229 +/- 0.027 | 0.228 +/- 0.027 |
+
+#### K Nearest Neighbors
+
+| Balanced Accuracy |    Precision    |      Recall     |        F1       |      Kappa      |
+|:-----------------:|:---------------:|:---------------:|:---------------:|:---------------:|
+|  0.705 +/- 0.037  | 0.942 +/- 0.022 | 0.409 +/- 0.074 | 0.568 +/- 0.073 | 0.567 +/- 0.073 |
+
+#### Support Vector Machine
+
+| Balanced Accuracy |  Precision  |     Recall     |        F1        |      Kappa      |
+|:-----------------:|:-----------:|:--------------:|:----------------:|:---------------:|
+|  0.595 +/- 0.013  | 1.0 +/- 0.0 | 0.19 +/- 0.026 | 0.319 +/- 0.0373 | 0.319 +/- 0.037 |
+
+#### Random Forest
+
+| Balanced Accuracy |    Precision    |      Recall     |        F1       |      Kappa      |
+|:-----------------:|:---------------:|:---------------:|:---------------:|:---------------:|
+|  0.865 +/- 0.017  | 0.972 +/- 0.014 | 0.731 +/- 0.033 | 0.834 +/- 0.022 | 0.833 +/- 0.022 |
+
+#### XGBoost
+
+| Balanced Accuracy |    Precision    |      Recall     |       F1       |      Kappa     |
+|:-----------------:|:---------------:|:---------------:|:--------------:|:--------------:|
+|   0.88 +/- 0.016  | 0.963 +/- 0.008 | 0.761 +/- 0.033 | 0.85 +/- 0.023 | 0.85 +/- 0.023 |
+
+#### LightGBM
+
+| Balanced Accuracy |   Precision  |      Recall     |        F1       |      Kappa      |
+|:-----------------:|:------------:|:---------------:|:---------------:|:---------------:|
+|  0.701 +/- 0.089  | 0.18 +/- 0.1 | 0.407 +/- 0.175 | 0.241 +/- 0.128 | 0.239 +/- 0.129 |
